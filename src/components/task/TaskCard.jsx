@@ -1,6 +1,6 @@
 import React from 'react'
 import { Draggable } from 'react-beautiful-dnd'
-import { useState } from 'react/cjs/react.development'
+import { useState } from 'react'
 import { TaskAddInput } from './TaskAddInput'
 import { TaskCardDeleteButton } from './TaskCardDeleteButton'
 import { TaskCardTitle } from './TaskCardTitle'
