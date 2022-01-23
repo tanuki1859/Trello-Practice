@@ -12,7 +12,7 @@ export const TaskAddInput = ({
   const handleSubmit = (e) => {
     const taskId = uuid();
     e.preventDefault();
-    if (inputText === "") return;//追記
+    if (inputText === "") return;
 
     setTaskList([...taskList,
       {

@@ -1,6 +1,5 @@
 import React from 'react'
 export const TaskCardDeleteButton = ({taskCardsList,setTaskCardsList,taskCard}) => {
-console.log(taskCardsList.id);
 
 const taskCardDeleteButton = (id) => {
     setTaskCardsList(taskCardsList.filter((e) => e.id !== id));
