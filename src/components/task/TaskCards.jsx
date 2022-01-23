@@ -6,10 +6,12 @@ import { AddTaskCardButton } from './button/AddTaskCardButton'
 import { TaskCard } from './TaskCard'
 
 export const TaskCards = () => {
-    const [taskCardsList,setTaskCardsList] = useState([{
-        id:'0',
+    const [taskCardsList,setTaskCardsList] = useState([
+        {
+        id:"0",
         draggableId:'item0',
-    }]);
+        },
+    ]);
 
     const hadleDragEnd = (result) => {
         let remove = taskCardsList.splice(result.source.index,1);
