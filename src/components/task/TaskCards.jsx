@@ -1,7 +1,7 @@
 import React from 'react'
 import { DragDropContext } from 'react-beautiful-dnd'
 import { Droppable } from 'react-beautiful-dnd'
-import { useState } from 'react/cjs/react.development'
+import { useState } from 'react'
 import { AddTaskCardButton } from './button/AddTaskCardButton'
 import { TaskCard } from './TaskCard'
 
